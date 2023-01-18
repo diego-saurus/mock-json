@@ -1,0 +1,82 @@
+{
+  "uuid": "dc5ca3c8-eac6-49a0-808b-1078b55b6cc2",
+  "lastMigration": 24,
+  "name": "Tnc",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 5000,
+  "hostname": "127.0.0.1",
+  "routes": [
+    {
+      "uuid": "d6ad0d07-9ac4-419c-a97f-fd805cdd8e12",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "api/usersettings/v1/termandcondition",
+      "responses": [
+        {
+          "uuid": "0006e6dc-b88a-4d09-830d-c3870cf47db0",
+          "body": "{\r\n    \"menuList\": [\r\n        {\r\n            \"id\": \"152\",\r\n            \"headerEn\": \"Terms and Conditions\",\r\n            \"headerId\": \"Syarat dan Ketentuan\",\r\n            \"subHeaderId\": \"Terminologi\",\r\n            \"subHeaderEn\": \"Terminology\",\r\n            \"bodyEn\": \"https://www.octoclicks.co.id/assets/octo_clicks/html/TNC/TNC_Payment_TaxEn.html\",\r\n            \"bodyId\": \"https://www.octoclicks.co.id/assets/octo_clicks/html/TNC/TNC_Payment_TaxId.html\",\r\n            \"subMenu\": null,\r\n            \"orderNo\": 16,\r\n            \"popUpFlag\": true\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "databucketID": "",
+          "bodyType": "INLINE"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    },
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
